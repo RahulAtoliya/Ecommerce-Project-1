@@ -42,7 +42,10 @@ jQuery(document).ready(function ($) {
 		paginationSpeed: 400,
 		singleItem: true,
 		items: 1,
-		dots: true
+		dots: true,
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 4000,
 	});
 
 	$(window).on('resize', function () {
