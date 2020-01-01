@@ -828,6 +828,10 @@ section {
 	left: 15px;
 }
 
+.logo_container img {
+	width: 200px;
+}
+
 .logo_container a {
 	font-size: 24px;
 	color: #1e1e27;
