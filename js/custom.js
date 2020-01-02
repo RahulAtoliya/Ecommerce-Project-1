@@ -353,7 +353,7 @@ jQuery(document).ready(function ($) {
 			slider1.owlCarousel({
 				loop: false,
 				dots: false,
-				nav: true,
+				nav: false,
 				responsive: {
 					0: {
 						items: 1
