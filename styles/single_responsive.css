@@ -232,7 +232,7 @@
 	}
 
 	.product_slider_item .product-item {
-		height: 400px;
+		height: 420px;
 	}
 
 	.benefit_col {
@@ -278,6 +278,15 @@
 	.single_product_thumbnails ul li img {
 		height: auto;
 		width: 100%;
+	}
+
+	.product-item {
+		width: 50%;
+		height: 420px;
+	}
+
+	.product {
+		height: 380px;
 	}
 
 	.breadcrumbs ul li {
@@ -442,9 +451,40 @@
 		margin-top: 20px;
 	}
 
+	.product-item {
+		width: 100%;
+		height: auto;
+	}
+
+	.product {
+		height: auto;
+	}
+
+	.product_name a {
+		font-size: 12px;
+	}
+
 	.section_title::after {
 		top: calc(100% + 8px);
 		height: 3px;
+	}
+
+
+	.product_slider_item .product-item {
+		width: 100%;
+		height: auto;
+	}
+
+	.product_slider_item .product-item:hover::after {
+		box-shadow: none;
+	}
+
+	.product_slider_item .product-item .product {
+		height: auto;
+	}
+
+	.product_slider_item .product-item .product_info {
+		padding-bottom: 30px;
 	}
 
 	.newsletter_form {
