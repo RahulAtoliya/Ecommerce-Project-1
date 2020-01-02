@@ -1163,6 +1163,22 @@ section {
 	color: #fe4c50;
 }
 
+.product_description {
+	padding: 8px;
+	margin-top: 16px;
+}
+
+.product_description ul {
+	list-style: circle;
+	font-size: 14px;
+	margin: 18px;
+}
+
+.product_description ul li {
+	margin-bottom: 5px;
+}
+
+
 /*********************************
 7. Tabs
 *********************************/
