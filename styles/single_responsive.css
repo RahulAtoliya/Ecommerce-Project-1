@@ -280,6 +280,10 @@
 		width: 100%;
 	}
 
+	.product_slider_item {
+		height: auto;
+	}
+
 	.product-item {
 		width: 50%;
 		height: 420px;
